@@ -29,17 +29,17 @@ const ruleOptions = {
   disney: true, // 迪士尼
   pixiv: true, // Pixiv
   hbo: true, // HBO
-  biliintl: true, // 哔哩哔哩东南亚
+  biliintl: false, // 哔哩哔哩东南亚
   tvb: true, // TVB
   hulu: true, // Hulu
   primevideo: true, // 亚马逊prime video
   telegram: true, // Telegram通讯软件
-  line: true, // Line通讯软件
-  whatsapp: true, // Whatsapp
+  line: false, // Line通讯软件
+  whatsapp: false, // Whatsapp
   games: true, // 游戏策略组
   japan: true, // 日本网站策略组
   tracker: true, // 网络分析和跟踪服务
-  ads: true, // 常见的网络广告
+  ads: false, // 常见的网络广告
 }
 
 /**
