@@ -169,7 +169,7 @@ const ruleProviderCommon = {
 const groupBaseOption = {
   interval: 300,
   timeout: 3000,
-  url: 'http://cp.cloudflare.com/generate_204',
+  url: 'http://www.gstatic.com/generate_204',
   lazy: true,
   'max-failed-times': 3,
   hidden: false,
@@ -227,8 +227,8 @@ function main(config) {
   /**
    * 这个值设置大点能省电，笔记本和手机需要关注一下
    */
-  config['keep-alive-interval'] = 1800
-
+  config['keep-alive-interval'] = 180
+  
   config['find-process-mode'] = 'strict'
 
   config['geodata-mode'] = true
