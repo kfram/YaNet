@@ -81,12 +81,14 @@ const regionOptions = {
       ratioLimit: 2,
       icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Singapore.png',
     },
+  /**  
     {
       name: 'CN中国大陆',
       regex: /中国|🇨🇳|cn|china/i,
       ratioLimit: 2,
       icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/China_Map.png',
     },
+    */
     {
       name: 'TW台湾省',
       regex: /台湾|🇹🇼|tw|taiwan|tai wan/i,
